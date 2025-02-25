@@ -8,5 +8,4 @@ shapely
 rapidfuzz
 pandas
 geopandas
-concurrent
 pydantic
