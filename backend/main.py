@@ -21,7 +21,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware, 
-    allow_origins=["https://enchanting-chimera-2c76b0.netlify.app/"],
+    allow_origins=["https://enchanting-chimera-2c76b0.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
