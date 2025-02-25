@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+requests
+mapbox-vector-tile
+shapely
+rapidfuzz
+pandas
+geopandas
+concurrent
+pydantic
