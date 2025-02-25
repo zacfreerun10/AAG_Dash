@@ -2,7 +2,7 @@ import openai
 from openai import OpenAIError
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from utils import get_hospitals_in_county, get_health_indicator_in_county, get_health_indicator_map,get_health_indicator_in_individual_county
+from backend.utils import get_hospitals_in_county, get_health_indicator_in_county, get_health_indicator_map,get_health_indicator_in_individual_county
 from pydantic import BaseModel
 import json
 import os
