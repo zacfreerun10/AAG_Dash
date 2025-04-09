@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 from starlette.requests import Request as StarletteRequest
 from pydantic import BaseModel
-from utils import (
+from .utils import (
     get_hospitals_in_county,
     get_health_indicator_in_county,
     get_health_indicator_map,
