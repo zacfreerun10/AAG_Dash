@@ -10,3 +10,4 @@ pandas
 geopandas
 pydantic
 itsdangerous
+polyline==1.4.0
