@@ -21,6 +21,12 @@ logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+MAPBOX_ACCESS_TOKEN = os.getenv("MAPBOX_ACCESS_TOKEN")
+COUNTY_TILESET_ID = os.getenv("COUNTY_TILESET_ID")
+HOSPITAL_TILESET_ID = os.getenv("HOSPITAL_TILESET_ID")
+MORTALITY_TILESET_ID = os.getenv("MORTALITY_TILESET_ID")
+GITHUB_CSV_URL = os.getenv("GITHUB_CSV_URL")
 app = FastAPI()
 
 app.add_middleware(
